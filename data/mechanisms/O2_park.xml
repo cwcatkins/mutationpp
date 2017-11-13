@@ -1,0 +1,13 @@
+<!-- O2 dissociation mechanism -->
+<mechanism name="O2_park">
+    
+    <arrhenius_units A="mol,cm,s,K" E="kcal,mol,K" />
+    
+    <reaction formula="O2+M=2O+M">
+        <arrhenius A="1E+22" n="-1.5" T="59500.0" />
+        <M>O:1.0, O2:0.2</M>
+    </reaction>
+    
+</mechanism>
+
+

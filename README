@@ -1,0 +1,27 @@
+Installation instructions:
+
+Create a mutation++ directory:
+	mkdir mutationpp
+
+Clone the repository into this directory:
+	git clone https://sync.vki.ac.be/mpp/mutationpp.git mutationpp
+
+Change into the directory:
+	cd mutationpp
+
+Create a build directory and change into it:
+	mkdir build 
+	cd build
+
+Configure CMake with the fortran wrapper enabled:
+	cmake -DBUILD_FORTRAN_WRAPPER=1 ../
+
+Make and install:
+	make 
+	make install
+
+Add the following to ~/.bashrc:
+	export MPP_DATA_DIRECTORY="path_to_mutation++_directory"/data
+ 	export PATH="path_to_mutation++_directory"/install/bin:$PATH
+ 	export LD_LIBRARY_PATH="path_to_mutation++_directory"/install/lib:$LD_LIBRARY_PATH
+

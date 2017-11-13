@@ -1,0 +1,3 @@
+ ne:            2 ns:            5 nr:            5 nen:            2 nm:            5
+  T(K)        Tv(K)       rho(kg/m^3) e_trN       e_trO       e_trNO      e_trN2      e_trO2      e_veN       e_veO       e_veNO      e_veN2      e_veO2      h(J/kg)     e(J/kg)     Mw(kg/mol)  
+  0.2000E+04  0.2000E+04  0.1250E+01  0.3507E+08  0.1675E+08  0.4132E+07  0.1174E+07  0.1028E+07  0.4044E+02  0.7173E+02  0.2571E+06  0.2250E+06  0.2855E+06  0.1983E+07  0.1406E+07  0.2885E-01
